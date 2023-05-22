@@ -45,3 +45,7 @@ In addition to these commands, EZofuck introduces additional commands that expan
 EZofuck's syntax is purposefully obscure and full of cryptic symbols in order to increase the challenge and complexity of the language. This makes reading and writing programs in EZofuck a Herculean task, but also provides a unique and exciting experience for programmers looking to venture into the esoteric realms of programming.
 
 Although the EZofuck language is purely fictional and has no real implementations, it serves as a creative homage to Brainfuck and the visionary mind of Urban Müller, who inspired us to explore the limits of programming and create new forms of expression in the art of coding.
+
+## Interpreter.tester.py
+
+You can run the interpreter by supplying an EZofuck code in the code variable and get the resulting output. In the example, the EZofuck code +++++[>++++[>++<-]<-]>>. prints the character 'A' on the output.

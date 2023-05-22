@@ -31,14 +31,14 @@ EZofuck maintains the basic Brainfuck commands, such as incrementing (+) and dec
 ```
 Here are the basic EZofuck language commands:
 
-1.. - Prints the current cell value on the tape.
-2., - Reads a value from the input and stores it in the current cell.
-3.+ - Increments the current cell value by 1.
-4.- - Decrements the current cell value by 1.
-5.> - Moves the pointer to the next cell on the ribbon.
-6.< - Moves the pointer to the previous cell on the ribbon.
-7.[ - Starts a loop. If the current cell value is 0, the program jumps to the command after the next ']'.
-8.] - Ends a loop. If the value of the current cell is different from 0, the program returns to the command after the corresponding '['.
+1.. - Prints the current cell value on the tape.<br>
+2., - Reads a value from the input and stores it in the current cell.<br>
+3.+ - Increments the current cell value by 1.<br>
+4.- - Decrements the current cell value by 1.<br>
+5.> - Moves the pointer to the next cell on the ribbon.<br>
+6.< - Moves the pointer to the previous cell on the ribbon.<br>
+7.[ - Starts a loop. If the current cell value is 0, the program jumps to the command after the next ']'.<br>
+8.] - Ends a loop. If the value of the current cell is different from 0, the program returns to the command after the corresponding '['.<br>
 
 In addition to these commands, EZofuck introduces additional commands that expand the range of possibilities. For example, the command ! performs a special arithmetic operation on the current cell, based on a peculiar mathematical sequence, and the ? triggers a series of random events that can affect program execution.
 

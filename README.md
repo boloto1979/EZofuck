@@ -49,3 +49,11 @@ Although the EZofuck language is purely fictional and has no real implementation
 ## Interpreter.tester.py
 
 You can run the interpreter by supplying an EZofuck code in the code variable and get the resulting output. In the example, the EZofuck code +++++[>++++[>++<-]<-]>>. prints the character 'A' on the output.
+
+## Compiler.test.py
+
+In this example, the EZofuckCompiler class has a compile method that takes the EZofuck code as input and generates an optimized equivalent Python code. The compiler generates Python code that uses a list called "tape" to represent the tape of cells and a pointer called "ptr" to indicate the current cell.
+
+The compiler steps through each EZofuck command and generates the corresponding Python code. EZofuck commands map to operations on the "tape" list and the "ptr" pointer of the generated Python code. For example, the command '.' is compiled into the sys.stdout.write(chr(tape[ptr])) operation, which prints the current cell value to the tape.
+
+The compiler also handles the '[' and ']' loop commands to ensure the iterations run correctly. It uses indentation to generate well-structured Python code.
